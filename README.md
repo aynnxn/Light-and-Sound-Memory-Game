@@ -39,7 +39,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-(insert gif link here)
+![Light Sound Demo Gif](https://user-images.githubusercontent.com/100540818/161368144-8e577761-d291-4775-a894-42e003e5ce40.gif)
+
 
 
 ## Reflection Questions
