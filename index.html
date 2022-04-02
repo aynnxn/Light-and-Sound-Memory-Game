@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Light+Sound Memory Game!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    
+    <!-- The Name/Header of the Game -->
+    <h1>Light and Sound Memory Game!!</h1>
+    
+    <!-- Description of game and rules under title -->
+    <p>
+      Welcome to the Light and Sound Memory Game.
+      <br />
+      <br />
+      When the game starts, a random button will light up. Your goal is to
+      remember which button that was, and click it. There are eight rounds, with
+      the first round having one button light up, and an extra button being
+      added to the randomly generated sequence each round.
+      <br />
+      <br />
+      If you get can through all eight rounds successfully, you win. If not, you
+      lose. Best of luck :)
+    </p>
+    
+    <!-- Start button -->
+    <button id="startBtn" onclick="startGame()">Start</button>
+    
+    <!-- Stop button -->
+    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+    
+    <!-- Game Modes! Allows user to select between Easy, Medium, and Hard with respective buttons -->
+    <div id="difficultySelect">
+      <h4>
+      <b>Difficulty: </b>
+        <!-- Description of difficulty modes under difficulty subtitle -->
+        <p>
+          Select your difficulty! By default, you are set to easy. Each increase adds an extra four rounds.
+        </p>
+      </h4>
+      <button id="easyBtn" class="difBtn" onclick="setDifficulty(1)">Easy</button>
+      <button id="medBtn" class="difBtn" onclick="setDifficulty(2)">Medium</button>
+      <button id="hardBtn" class="difBtn" onclick="setDifficulty(3)">Hard</button>
+    </div>
+    
+    <!-- This is the area for each button, with a total of 5 buttons -->
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">
+        <img width="80" height="80" class="hidden" />
+      </button>
+
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">
+        <img width="80" height="80" class="hidden" />
+      </button>
+
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">
+        <img width="80" height="80" class="hidden" />
+      </button>
+
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">
+        <img width="80" height="80" class="hidden" />
+      </button>
+
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()">
+        <img width="80" height="80" class="hidden" />
+      </button>
+    </div>
+  </body>
+</html>
