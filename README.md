@@ -36,12 +36,11 @@ The following **additional** features are implemented:
 
 - [x] Added difficulty options, increasing the amount of rounds by four per difficulty. The default difficulty and the easy difficult are the same, so if no difficulty is selected it will automatically be "Easy".
 
-## Video Walkthrough
+## Video Walkthrough (GIF)
 
-Here's a walkthrough of implemented user stories:
 ![Light Sound Demo Gif](https://user-images.githubusercontent.com/100540818/161368144-8e577761-d291-4775-a894-42e003e5ce40.gif)
 
-
+The following GIF displays the game on Medium difficulty, with a loss message. 
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
