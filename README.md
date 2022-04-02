@@ -77,4 +77,4 @@ To round out the project, I would allow for G-Mail logins so that a local and gl
 This would aid in making the game more fun and collaborative, where friends could compete. 
 
 ## Interview Recording URL Link
-[My 5-minute Interview Recording] - 
+[My 5-minute Interview Recording] - https://youtu.be/_6Fd-O1mTtY
